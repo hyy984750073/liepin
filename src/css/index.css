@@ -1,0 +1,104 @@
+/* line 1, ../assets/sass/index.scss */
+body, html {
+  font-size: 20px;
+  font-family: "microsoft yahei";
+}
+
+/* line 3, ../assets/sass/index.scss */
+.navbar-text {
+  margin: 0 !important;
+}
+
+/* line 7, ../assets/sass/index.scss */
+.navbar-brand {
+  color: #ddd !important;
+}
+
+/* line 11, ../assets/sass/index.scss */
+.navbar-top {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* line 15, ../assets/sass/index.scss */
+.navbar-top.navbar-default {
+  border-color: transparent;
+}
+
+/* line 19, ../assets/sass/index.scss */
+.jumbotron {
+  height: 16.5rem;
+  background: url(../img/ballon.jpg) no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+  color: #fff;
+}
+/* line 25, ../assets/sass/index.scss */
+.jumbotron .page-header {
+  border-bottom: 1px solid #eee;
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+}
+/* line 29, ../assets/sass/index.scss */
+.jumbotron .coms button {
+  display: inline;
+  font-size: 0.65rem;
+  padding: 0 0.4rem;
+}
+/* line 34, ../assets/sass/index.scss */
+.jumbotron .coms {
+  display: inline;
+  margin-bottom: 0.5rem;
+}
+/* line 40, ../assets/sass/index.scss */
+.jumbotron .salary .label {
+  font-size: 0.65rem;
+  margin-right: 6px;
+  background: 0 0;
+  border: 1px solid #fff;
+  padding: 0 0.3rem;
+}
+
+/* line 51, ../assets/sass/index.scss */
+.newest-jobs .page-header {
+  margin: 0;
+  line-height: 0;
+}
+
+/* line 57, ../assets/sass/index.scss */
+.footer {
+  margin-top: 6.5rem;
+  font-size: 0.6rem;
+  background-color: #fff;
+  color: #777;
+}
+/* line 58, ../assets/sass/index.scss */
+.footer a {
+  color: #777;
+}
+/* line 61, ../assets/sass/index.scss */
+.footer h4 {
+  font-size: 18px;
+}
+/* line 69, ../assets/sass/index.scss */
+.footer .powered-by-liepin hr {
+  margin-top: -0.5rem;
+}
+/* line 73, ../assets/sass/index.scss */
+.footer .powered-by-liepin span {
+  background: #fff;
+  padding: 0 0.5rem;
+}
+/* line 77, ../assets/sass/index.scss */
+.footer .powered-by-liepin span a {
+  background: url(../img/liepin-bottom.png) no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  vertical-align: top;
+  display: inline-block;
+  text-indent: -500px;
+  width: 3rem;
+  height: 1rem;
+}
+/* line 89, ../assets/sass/index.scss */
+.footer > .container {
+  margin-top: 4rem;
+}
