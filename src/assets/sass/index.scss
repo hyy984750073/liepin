@@ -1,0 +1,92 @@
+body,html{font-size:20px;font-family:"microsoft yahei";}
+
+.navbar-text{
+	margin:0!important;
+}
+
+.navbar-brand{
+	color: #ddd!important;
+}
+
+.navbar-top{
+	background: rgba(0,0,0,.3);
+}
+
+.navbar-top.navbar-default {
+    border-color: transparent;
+}
+
+.jumbotron{
+	height:16.5rem;
+	background:url(../img/ballon.jpg) no-repeat;
+	background-size:cover;
+	margin-bottom:0;
+	color:#fff;
+	.page-header{
+		border-bottom: 1px solid #eee;
+		border-bottom-color: rgba(0,0,0,.1);
+	}
+	.coms button{
+		display:inline;
+		font-size:0.65rem;
+		padding:0 0.4rem;
+	}
+	.coms{
+		display:inline;
+		margin-bottom:0.5rem;
+	}
+
+	.salary{
+		.label{
+			font-size:0.65rem;
+			margin-right: 6px;
+	    	background: 0 0;
+	   	 	border: 1px solid #fff;
+	   	 	padding:0 0.3rem;
+		}
+	}
+}
+
+.newest-jobs{
+	.page-header{
+		margin:0;
+		line-height:0;
+	}
+}
+
+.footer{
+	a{
+		color: #777;
+	}
+	h4{
+		font-size: 18px;
+	}
+	
+	margin-top:6.5rem;
+	font-size:0.6rem;
+	background-color: #fff;
+	color: #777;
+	.powered-by-liepin hr{
+		margin-top:-0.5rem;
+	}
+	.powered-by-liepin{
+		span{
+			background:#fff;
+			padding:0 0.5rem;
+		}
+		span a{
+			background:url(../img/liepin-bottom.png) no-repeat;
+			background-size:contain;
+			overflow:hidden;
+			vertical-align:top;
+			display:inline-block;
+			text-indent:-500px;
+			width:3rem;
+			height:1rem;
+		}
+	}
+	 
+	>.container{
+		margin-top:4rem;
+	}
+}
